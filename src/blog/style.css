@@ -1,10 +1,21 @@
 body {
-    background-color: #ccc;
-}
+    background: linear-gradient(black, white);
+  }
 
 main {
     width: 50%;
     background-color: #eee;
     margin: auto;
     padding: 5px;
+}
+#example1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px gold;
+}
+i {
+    font: 12px/30px Georgia, serif;
+}
+h2 {
+text-transform: uppercase;
 }

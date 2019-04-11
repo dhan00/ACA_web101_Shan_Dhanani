@@ -13,5 +13,14 @@ header {
     font size: 35px;
     color: #black;
 }
-p.groove {border-style: groove;
-background-color: ghostwhite}
+p.hidden {border-style: hidden;
+background-color: lightgray}
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+div {
+    margin: 70px;
+  }

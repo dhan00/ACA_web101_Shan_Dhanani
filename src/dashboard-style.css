@@ -20,8 +20,12 @@
   .item2 {
       display: grid;
       grid-template-columns: 25% 25% 25% 25%;
-      grid-template-rows: 20% 20% 20% 20% 20%;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+
+  #answer {
+    grid-column: 1/5;
+  }
   
   .item5 {
     grid-column: 1 / span 3;

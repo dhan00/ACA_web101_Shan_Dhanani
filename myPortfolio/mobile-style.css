@@ -1,19 +1,14 @@
-@media (max-width: 576px) {
-  .column {
-    color: blue;
-  }
+
   header {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 100%;
     width: 100%;
   }
-}
-.menu {
+#menu {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-}
+  }
 .has-border {
   font-size: .9rem;
 }

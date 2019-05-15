@@ -17,16 +17,6 @@
     grid-row: 1;
   }
   
-  .item2 {
-      display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-
-  #answer {
-    grid-column: 1/5;
-  }
-  
   .item5 {
     grid-column: 1 / span 3;
     grid-row: 3;
@@ -69,3 +59,50 @@
       font-size: 16px;
       resize: none;
     }
+    *{
+      box-sizing: border-box;
+  }
+  body{
+      min-height: 100vh;
+      display:flex;
+      justify-content: center;
+      align-items: flex-start;
+  }
+  .container{
+      display:flex;
+      flex-wrap: wrap;
+      flex: 0 1 60%;
+      min-width:400px;
+  }
+
+  .buttons,.result{
+      display: flex;
+      flex-wrap: wrap;
+      flex: 0 1 100%;
+  }
+  .result{
+      height: 50px;
+      border: 1px solid black;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 1.5em;
+      background: #000;
+      color:#fff;
+      padding:0 10px;
+  }
+  .button{
+      display:flex;
+      flex: 0 1 25%;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      border: 1px solid black;
+      border-top:none;
+      border-left:none;
+      cursor: pointer;
+      background: -webkit-linear-gradient(top,#d2d2d2,#ddd);
+      font-size:2em;
+  }
+  .zero-btn{
+      flex-grow: 2;
+  }

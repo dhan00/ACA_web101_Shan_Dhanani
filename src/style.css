@@ -1,0 +1,48 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    height: 450px;
+    background-image: url(nasa.jpg);
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+    div.container4 {
+    height:25em;
+    position: relative;
+    }
+    div.container4 h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    }
+    h1 {
+    font-size: 80px;
+    }
+
+section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(224, 222, 222);
+    margin-top: 20px;
+}
+
+article {
+    width: 270px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+input[type=message] {
+    height: 75px;
+}

@@ -1,7 +1,10 @@
+body {
+    background-color: goldenrod;
+}
 .grid-container {
     display: grid;
     grid-gap: 10px;
-    background-color: #2196F3;
+    /* background-color: #2196F3; */
     padding: 10px;
   }
   
@@ -20,6 +23,7 @@
   .item5 {
     grid-column: 1 / span 3;
     grid-row: 3;
+    background-image: url(tripdash.png)
   }
   
   .box {
@@ -68,7 +72,7 @@
       justify-content: center;
       align-items: flex-start;
   }
-  .container{
+  .calculator{
       display:flex;
       flex-wrap: wrap;
       flex: 0 1 60%;
@@ -106,3 +110,46 @@
   .zero-btn{
       flex-grow: 2;
   }
+@media (max-width: 768px) {
+    .calculator{
+        grid-column: 2 / span 1;
+        grid-row: 3;
+    }
+    .item5 {
+        grid-column: 1 / span 1;
+        grid-row: 3;
+    }
+}
+
+  @media (max-width: 576px) {
+    .grid-container {
+        display: grid;
+        grid-gap: 10px;
+        /* background-color: #2196F3; */
+        padding: 10px;
+        grid-template-columns: 1fr 1fr;
+      }
+    .calculator{
+        display:flex;
+        flex-wrap: wrap;
+        flex: 0 1 60%;
+        min-width:400px;
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+    .item5 {
+        grid-column: 1 / span 3;
+        grid-row: 4;
+        background-image: url(tripdash.png)
+      }
+    
+    .item3 {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    }
+    
+    .item4 {
+        grid-column: 2 / span 1;
+        grid-row: 2;
+    }
+}

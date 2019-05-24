@@ -4,7 +4,6 @@ body {
 .grid-container {
     display: grid;
     grid-gap: 10px;
-    /* background-color: #2196F3; */
     padding: 10px;
   }
   
@@ -23,7 +22,7 @@ body {
   .item5 {
     grid-column: 1 / span 3;
     grid-row: 3;
-    background-image: url(tripdash.png)
+    /* background-image: url(tripdash.png) */
   }
   
   .box {
@@ -125,7 +124,6 @@ body {
     .grid-container {
         display: grid;
         grid-gap: 10px;
-        /* background-color: #2196F3; */
         padding: 10px;
         grid-template-columns: 1fr 1fr;
       }
@@ -140,7 +138,7 @@ body {
     .item5 {
         grid-column: 1 / span 3;
         grid-row: 4;
-        background-image: url(tripdash.png)
+        /* background-image: url(tripdash.png) */
       }
     
     .item3 {
